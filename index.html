@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Selector de Paquetes</title>
+    <script src="camion.js"></script>
+</head>
+<body>
+    <h1>Selector de Paquetes</h1>
+    <label for="tamanioCamion">Tamaño del camión:</label>
+    <input type="number" id="tamanioCamion" placeholder="Ingresa el tamaño del camión" required />
+
+    <br><br>
+
+    <label for="listadoPaquetes">Listado de paquetes (separados por comas):</label>
+    <input type="text" id="listadoPaquetes" placeholder="Ejemplo: 10, 60, 40, 35, 20" required />
+
+    <br><br>
+
+    <button onclick="calcularTamanioPaquetes()">Calcular</button>
+
+    <h3>Resultado:</h3>
+    <div id="resultado"></div>
+
+    <footer>Miguel Angel Lagos Cubas</footer>
+</body>
+</html>
